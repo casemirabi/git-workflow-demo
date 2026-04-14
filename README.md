@@ -1,12 +1,30 @@
 # Git Workflow Demo
 
-Projeto criado para demonstrar boas práticas com Git e GitHub.
+Repositório criado como parte de um desafio prático para reforçar conhecimentos em Git e GitHub.
 
 ## Objetivo
 
-Mostrar um fluxo simples de versionamento usando branches, commits semânticos e merge.
+Este projeto foi desenvolvido com o objetivo de praticar, na prática, os principais passos de uso do Git e GitHub, incluindo:
 
-## Tecnologias
+- criação de repositório local
+- adição e versionamento de arquivos
+- realização de commits
+- criação de branches
+- merge de alterações
+- criação de tag de versão
+- sincronização com repositório remoto no GitHub
+
+## Sobre o projeto
+
+O conteúdo do repositório consiste em uma página simples em HTML, CSS e JavaScript que apresenta um fluxo básico de trabalho com Git, incluindo:
+
+- criação de branch
+- commit
+- pull request
+- merge
+- release
+
+## Tecnologias utilizadas
 
 - HTML
 - CSS
@@ -14,14 +32,13 @@ Mostrar um fluxo simples de versionamento usando branches, commits semânticos e
 - Git
 - GitHub
 
-## Como executar
+## Estrutura do projeto
 
-Abra o arquivo `index.html` no navegador.
-
-## Práticas aplicadas
-
-- branch por funcionalidade
-- commits semânticos
-- merge entre branches
-- organização de histórico
-- versionamento com tag
+```bash
+git-workflow-demo/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+├── CHANGELOG.md
+└── .gitignore
