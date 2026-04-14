@@ -1,10 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
+  <meta charset="UTF-8">
   <title>Git Workflow Demo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Git Workflow Demo</h1>
-  <p>Projeto para demonstrar uso de Git.</p>
+
+  <header class="hero">
+    <h1>Git Workflow Demo</h1>
+    <p>Uma demonstração simples de boas práticas com Git</p>
+  </header>
+
+  <section class="workflow">
+    <h2>Fluxo de trabalho</h2>
+
+    <div class="card">1. Criar branch</div>
+    <div class="card">2. Fazer commit</div>
+    <div class="card">3. Abrir Pull Request</div>
+    <div class="card">4. Fazer merge</div>
+    <div class="card">5. Criar release</div>
+  </section>
+
+  <section class="commits">
+    <h2>Exemplos de commits</h2>
+    <p id="commit-output">Clique no botão para ver um commit</p>
+    <button onclick="showCommit()">Mostrar commit</button>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
